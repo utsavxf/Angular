@@ -1,9 +1,0 @@
-<h3>Todos List</h3>
-
-
-
-<p *ngIf="!todoItems().length">Loading ...</p>
-
-<ng-container *ngFor="let todo of todoItems(); let i = index">
-    <p>{{ todo.title }}</p>
-  </ng-container>
